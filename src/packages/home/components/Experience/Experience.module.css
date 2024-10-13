@@ -22,6 +22,12 @@
   border: var(--border-light);
   background-color: white;
   padding: var(--sm-spacing);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: rotate(-5deg);
+  transition: all 0.2s;
 }
 
 .title {

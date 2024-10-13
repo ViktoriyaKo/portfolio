@@ -35,7 +35,7 @@ const Hero = () => {
           </Link>
         </div>
       </header>
-      {/* <Technologies /> */}
+      <Technologies />
     </section>
   );
 };

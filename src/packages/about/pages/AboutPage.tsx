@@ -1,5 +1,12 @@
+import { Hero, Gallery } from '../components';
+
 const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return (
+    <>
+      <Hero />
+      <Gallery />
+    </>
+  );
 };
 
 export default AboutPage;
