@@ -1,0 +1,95 @@
+.container {
+  padding: var(--sm-spacing);
+  max-width: var(--width-container);
+  margin: 0 auto;
+  padding-block: 180px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.title {
+  background-clip: text;
+  background-image: linear-gradient(
+    2422deg,
+    #02695f 0%,
+    rgb(60 33 151) 32.0735%,
+    rgb(179 51 0) 84.5703%
+  );
+
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (width >= 768px) {
+  .title {
+    font-size: 80px;
+  }
+}
+
+.wrapperDescription {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.github {
+  padding: 4px 12px;
+  border-radius: 20px;
+  background-color: var(--purple-100);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  width: fit-content;
+  transition: all 0.5s;
+}
+
+.github:hover {
+  background: var(--purple-200);
+  transition: all 0.5s;
+}
+
+.imageWrapper {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: white;
+  transform: rotate(-7deg);
+  border: var(--border-light);
+  transition: all 0.5s;
+}
+
+.imageWrapper:hover {
+  transition: all 0.5s;
+  transform: none;
+  scale: 1.2;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.caption {
+  font-family: var(--font-caveat);
+  font-size: 26px;
+  text-align: center;
+}

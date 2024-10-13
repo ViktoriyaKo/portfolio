@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 20px 20px 20px;
+  max-width: var(--width-container);
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+}
+
+/* image */
+.wrapperImage {
+  position: relative;
+}
+
+.image {
+  width: 200px;
+  height: 700px;
+  object-fit: contain;
+}
+
+.text {
+  position: absolute;
+  top: -70px;
+  left: -45px;
+  width: 200px;
+  overflow: visible;
+  transform: rotate(-8deg);
+}
+
+.text path {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+/* contacts */
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 40%;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.link {
+  transition: all 0.5s;
+}
+
+.link:hover {
+  transition: all 0.5s;
+  scale: 1.1;
+}
+
+.align {
+  margin-right: auto;
+}

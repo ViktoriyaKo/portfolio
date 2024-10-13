@@ -1,0 +1,16 @@
+.container {
+  max-width: var(--width-container);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-block: 40px;
+  align-items: center;
+}
+
+.wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 20px;
+}

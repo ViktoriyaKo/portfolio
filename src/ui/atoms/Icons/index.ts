@@ -1,0 +1,9 @@
+export { LogoIcon } from './LogoIcon';
+export { SvgContainer } from './containers/SvgContainer';
+export { LinkedinIcon } from './LinkedinIcon';
+export { EmailIcon } from './EmailIcon';
+export { PhoneIcon } from './PhoneIcon';
+export { TelegramIcon } from './TelegramIcon';
+export { Icon } from './containers/Icon';
+export { CloseIcon } from './CloseIcon';
+export { GithubIcon } from './GithubIcon';

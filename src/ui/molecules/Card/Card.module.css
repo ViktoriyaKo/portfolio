@@ -1,0 +1,54 @@
+.container {
+  border-radius: var(--border-radius);
+  background-color: #e6e6e6;
+  padding: 4px 8px 8px 8px;
+}
+
+/* topLine */
+.topLine {
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.points {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.closeIcon {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* card */
+.card {
+  height: 400px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  transition: transform 3s linear;
+}
+
+.card:hover .image {
+  transform: translateY(-92%);
+  transition: transform 10s linear;
+}
+
+.card .image {
+  transform: translateY(0);
+}
