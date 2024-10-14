@@ -6,16 +6,18 @@ import { EDUCATION, EXPERIENCE } from '@/entities';
 
 const Experience = () => {
   return (
-    <motion.section
-      className={styles.container}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ amount: 0.2, once: true }}
-    >
+    <section className={styles.container}>
       <Title title={'Education && Experience'} />
       {/* card */}
       <ul className={styles.wrapper}>
-        <motion.li custom={0} variants={fadeAnimation} className={styles.card}>
+        <motion.li
+          custom={0}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ amount: 0.2, once: true }}
+          variants={fadeAnimation}
+          className={styles.card}
+        >
           <div>
             <p className={styles.title}>Education</p>
             <ul className={styles.inner}>
@@ -34,7 +36,14 @@ const Experience = () => {
             </ul>
           </div>
         </motion.li>
-        <motion.li custom={1} variants={fadeAnimation} className={styles.card}>
+        <motion.li
+          custom={1}
+          variants={fadeAnimation}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ amount: 0.2, once: true }}
+          className={styles.card}
+        >
           <div>
             <p className={styles.title}>Experience</p>
             <ul className={styles.inner}>
@@ -55,7 +64,7 @@ const Experience = () => {
           </div>
         </motion.li>
       </ul>
-    </motion.section>
+    </section>
   );
 };
 
