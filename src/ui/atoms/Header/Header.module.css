@@ -27,9 +27,15 @@
 
 .item {
   display: block;
-  padding: 12px 24px;
+  padding: 12px 16px;
   font-weight: 500;
   transition: all 0.5s;
+}
+
+@media (width >= 768px) {
+  .item {
+    padding: 12px 24px;
+  }
 }
 
 .list li:nth-of-type(odd):hover {
