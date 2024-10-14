@@ -29,17 +29,19 @@ const danceBody = `<div>
 </div>`;
 
 export const GALLERY = [
-  { name: '#1 Skills', description: skillsBody, image: skills },
+  { name: '#1 Skills', description: skillsBody, image: skills, height:'auto' },
   {
     name: '#2 Hobby: Travel',
     description: travelBody,
     image: travel,
     style: 'text',
+    height:'650px',
   },
   {
     name: '#3 Hobby: Pole dance',
     description: danceBody,
     image: sport,
     style: 'text',
+    height:'500px',
   },
 ];

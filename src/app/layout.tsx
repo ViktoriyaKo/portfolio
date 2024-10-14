@@ -1,8 +1,9 @@
-import type { Metadata } from 'next';
 import './globals.css';
 import { Plus_Jakarta_Sans, Caveat } from 'next/font/google';
 import clsx from 'clsx';
 import { Header } from '@/ui/atoms/Header';
+import { createMetadata } from '@/utils';
+import { METADATA } from '@/entities';
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -14,10 +15,7 @@ const caveat = Caveat({
   variable: '--font-caveat',
 });
 
-export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Portfolio Avsievich Viktoriia',
-};
+export const metadata = createMetadata(METADATA);
 
 export default function RootLayout({
   children,

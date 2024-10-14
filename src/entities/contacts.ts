@@ -27,7 +27,7 @@ export const CONTACTS = [
   {
     name: 'linkedin',
     icon: LinkedinIcon,
-    href: 'www.linkedin.com/in/viktoriia-avsievich-4b3876267',
+    href: 'https://www.linkedin.com/in/viktoriia-avsievich-4b3876267',
     caption: 'viktoriia-avsievich-4b3876267',
   },
 ];

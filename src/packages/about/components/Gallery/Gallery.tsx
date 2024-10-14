@@ -12,7 +12,7 @@ const Gallery = () => {
     <section className={styles.container}>
       <ul className={styles.wrapper}>
         {GALLERY.map((item, index) => {
-          const { name, description, image, style } = item;
+          const { name, description, image, style, height } = item;
 
           return (
             <motion.li
@@ -38,6 +38,8 @@ const Gallery = () => {
                 <Image
                   alt={name}
                   src={image}
+                  style={{maxHeight: height}}
+                  // fill
                   className={styles.image}
                   sizes="50vw"
                 />

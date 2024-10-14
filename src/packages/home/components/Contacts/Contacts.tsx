@@ -39,15 +39,15 @@ const Contacts = () => {
       <ul className={styles.contacts}>
         {CONTACTS.map((item, index) => {
           const { name, icon, href } = item;
-
+          console.log(href);
           return (
             <li
               key={name}
               className={clsx(styles.link, { [styles.align]: index === 1 })}
             >
-              <Link href={href}>
+              <a target="_blank" href={href}>
                 <Icon html={icon} />
-              </Link>
+              </a>
             </li>
           );
         })}
