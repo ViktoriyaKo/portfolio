@@ -31,7 +31,7 @@ const Gallery = () => {
                 )}
                 style={{ order: index % 2 === 0 ? -1 : 1 }}
               >
-                <h3 className={styles.title}>{name}</h3>
+                <h2 className={styles.title}>{name}</h2>
                 <div dangerouslySetInnerHTML={{ __html: description }} />
               </div>
               <div className={styles.card}>
