@@ -1,7 +1,5 @@
 import { Title } from '@/ui/atoms';
 import styles from './Experience.module.css';
-import { motion } from 'framer-motion';
-import { fadeAnimation } from '@/utils';
 import { EDUCATION, EXPERIENCE } from '@/entities';
 
 const Experience = () => {
