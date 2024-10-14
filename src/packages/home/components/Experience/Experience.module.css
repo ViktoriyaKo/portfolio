@@ -50,7 +50,7 @@
 
 .muted {
   font-size: 14px;
-  color: gray;
+  color: var(--muted-color);
 }
 
 .item {
@@ -68,7 +68,7 @@
 }
 
 .mark {
-  color: gray;
+  color: var(--muted-color);
 }
 
 .technologies {
