@@ -5,5 +5,5 @@ export const METADATA = {
   description:
     'Portfolio of Viktoriia Avsievich – a web developer specializing in creating responsive and modern web applications. Experienced in frontend and fullstack development using technologies like React, Next.js, JavaScript, TypeScript, Strapi, and more. Skilled in web design, UX/UI, and interface development.',
   ogImage: `${process.env.NEXT_PUBLIC_URL}/images/ogimage.png`,
-  canonical: process.env.NEXT_PUBLIC_URL,
+  canonical: `${process.env.NEXT_PUBLIC_URL}`,
 };
