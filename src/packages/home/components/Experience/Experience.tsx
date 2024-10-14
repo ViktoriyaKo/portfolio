@@ -10,14 +10,7 @@ const Experience = () => {
       <Title title={'Education && Experience'} />
       {/* card */}
       <ul className={styles.wrapper}>
-        <motion.li
-          custom={0}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.2, once: true }}
-          variants={fadeAnimation}
-          className={styles.card}
-        >
+        <li className={styles.card}>
           <div>
             <p className={styles.title}>Education</p>
             <ul className={styles.inner}>
@@ -35,15 +28,8 @@ const Experience = () => {
               })}
             </ul>
           </div>
-        </motion.li>
-        <motion.li
-          custom={1}
-          variants={fadeAnimation}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.2, once: true }}
-          className={styles.card}
-        >
+        </li>
+        <li className={styles.card}>
           <div>
             <p className={styles.title}>Experience</p>
             <ul className={styles.inner}>
@@ -62,7 +48,7 @@ const Experience = () => {
               })}
             </ul>
           </div>
-        </motion.li>
+        </li>
       </ul>
     </section>
   );

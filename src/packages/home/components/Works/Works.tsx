@@ -14,7 +14,7 @@ const Works = () => {
       className={styles.container}
       id="work"
     >
-      <Title title={'My best works'} />
+      <Title title={'My latest works'} />
       <ul className={styles.wrapper}>
         {WORKS.map((item, index) => {
           return (
