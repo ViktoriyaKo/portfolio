@@ -15,7 +15,7 @@ export const CONTACTS = [
   {
     name: 'telegram',
     icon: TelegramIcon,
-    href: 'https://t.me/@viktoriya000001',
+    href: 'https://t.me/@viktoriya_000001',
     caption: '@viktoriya000001',
   },
   {
