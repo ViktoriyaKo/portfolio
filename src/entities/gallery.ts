@@ -1,4 +1,4 @@
-import sport from '/public/images/sport.jpg';
+import sport from '/public/images/sport2.jpg';
 import skills from '/public/images/skills.jpg';
 import travel from '/public/images/travel.jpg';
 
@@ -25,23 +25,23 @@ const travelBody = `<div>
 
 const danceBody = `<div>
 <p>I have been practicing pole dance for several years and absolutely love sports.</p> 
-<p>Staying active has always been a big part of my life. I also hold the title of Candidate for Master of Sports (CMS) in all-around athletics, which reflects my dedication and passion for fitness.</p>
+<p>Staying active has always been a big part of my life. I also hold the title of Candidate for Master of Sports in polyathlon, which reflects my dedication and passion for fitness.</p>
 </div>`;
 
 export const GALLERY = [
-  { name: '#1 Skills', description: skillsBody, image: skills, height:'auto' },
+  { name: '#1 Skills', description: skillsBody, image: skills, height: 'auto' },
   {
     name: '#2 Hobby: Travel',
     description: travelBody,
     image: travel,
     style: 'text',
-    height:'650px',
+    height: '650px',
   },
   {
     name: '#3 Hobby: Pole dance',
     description: danceBody,
     image: sport,
     style: 'text',
-    height:'500px',
+    height: '640px',
   },
 ];
