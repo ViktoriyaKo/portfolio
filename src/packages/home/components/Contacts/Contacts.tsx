@@ -45,9 +45,9 @@ const Contacts = () => {
               key={name}
               className={clsx(styles.link, { [styles.align]: index === 1 })}
             >
-              <a target="_blank" href={href}>
+              <Link target="_blank" href={href}>
                 <Icon html={icon} />
-              </a>
+              </Link>
             </li>
           );
         })}
