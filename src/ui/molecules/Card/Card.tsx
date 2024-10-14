@@ -6,11 +6,12 @@ import Link from 'next/link';
 interface IProps {
   href: string;
   name: string;
+  alt: string;
   image: StaticImageData;
 }
 
 const Card = (props: IProps) => {
-  const { href, name, image } = props;
+  const { href, name, image, alt } = props;
 
   return (
     <Link href={href} className={styles.container}>
@@ -26,7 +27,7 @@ const Card = (props: IProps) => {
         </div>
       </div>
       <div className={styles.card}>
-        <Image src={image} alt={name} className={styles.image} />
+        <Image src={image} alt={alt} className={styles.image} />
       </div>
     </Link>
   );

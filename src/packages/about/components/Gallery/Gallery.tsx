@@ -38,8 +38,7 @@ const Gallery = () => {
                 <Image
                   alt={name}
                   src={image}
-                  style={{maxHeight: height}}
-                  // fill
+                  style={{ maxHeight: height }}
                   className={styles.image}
                   sizes="50vw"
                 />
