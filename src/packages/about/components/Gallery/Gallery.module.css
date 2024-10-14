@@ -1,6 +1,6 @@
 .container {
   padding: var(--sm-spacing);
-  max-width: 1400px;
+  max-width: 1375px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -12,19 +12,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: var(--sm-spacing);
   width: 100%;
 }
 
 .inner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   background-color: #e4e4e4;
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 40px;
-  gap: var(--sm-spacing);
-  padding: var(--sm-spacing);
+  gap: var(--xs-spacing);
+  padding: var(--xs-spacing);
   width: 100%;
+}
+
+@media (width >= 768px) {
+  .inner {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    padding: var(--sm-spacing);
+    gap: var(--sm-spacing);
+  }
 }
 
 .card {
@@ -37,7 +44,15 @@
 }
 
 .description {
-  padding: 40px;
+  font-size: 14px;
+  padding: var(--sm-spacing);
+}
+
+@media (width >= 768px) {
+  .description {
+    font-size: 16px;
+    padding: 40px;
+  }
 }
 
 .description div {
@@ -64,12 +79,19 @@
   object-fit: cover;
   height: 100%;
   max-height: 650px;
+  min-height: 300px;
 }
 
 .title {
-  margin-bottom: 20px;
+  margin-bottom: var(--xs-spacing);
   font-size: 20px;
   color: var(--purple-100);
+}
+
+@media (width >= 768px) {
+  .title {
+    margin-bottom: var(--sm-spacing);
+  }
 }
 
 .filter {

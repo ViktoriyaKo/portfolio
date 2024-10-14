@@ -18,11 +18,13 @@ const Hero = () => {
         />
         <p className={styles.caption}>Vika</p>
       </div>
-      <header>
+      <header className={styles.header}>
         <h1 className={styles.title}>Hi, I&apos;m Viktoriia Avsievich!</h1>
         <div className={styles.wrapperDescription}>
           <h2 className={styles.description}>
-            Frontend Developer with 3+ years of commercial experience
+            Frontend Developer with 3+ years of commercial experience,
+            specializing in building responsive and user-friendly web
+            applications using modern technologies
           </h2>
           <Link
             className={styles.github}

@@ -15,18 +15,33 @@
 }
 
 .image {
-  width: 200px;
+  max-width: 300px;
+  width: 100%;
   height: 700px;
   object-fit: contain;
 }
 
+@media (width >= 768px) {
+  .image {
+    max-width: 500px;
+  }
+}
+
 .text {
   position: absolute;
-  top: -70px;
-  left: -45px;
+  top: 90px;
+  right: 42px;
+
   width: 200px;
   overflow: visible;
   transform: rotate(-8deg);
+}
+
+@media (width >= 768px) {
+  .text {
+    top: -30px;
+    right: 140px;
+  }
 }
 
 .text path {
@@ -39,11 +54,19 @@
 .contacts {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   position: absolute;
   top: 40%;
-  width: 60%;
+  width: 100%;
   justify-content: space-around;
+  padding-inline: 20px;
+}
+
+@media (width >= 768px) {
+  .contacts {
+    width: 60%;
+    gap: 40px;
+  }
 }
 
 .link {
@@ -58,3 +81,4 @@
 .align {
   margin-right: auto;
 }
+
