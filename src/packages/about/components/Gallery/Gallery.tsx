@@ -40,7 +40,8 @@ const Gallery = () => {
                   src={image}
                   style={{ maxHeight: height }}
                   className={styles.image}
-                  sizes="50vw"
+                  sizes="40vw"
+                  quality={70}
                 />
                 <div className={styles.filter} />
               </div>
