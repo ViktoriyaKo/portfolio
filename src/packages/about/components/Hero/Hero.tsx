@@ -5,8 +5,7 @@ const Hero = () => {
     <section className={styles.container}>
       <h1 className={styles.title}>About me</h1>
       <div className={styles.description}>
-        A hardworking and diligent front-end developer with 3+ years of
-        commercial experience, passionate about web development. Holds a
+        A hardworking and diligent front-end developer, passionate about web development. Holds a
         master`s degree in Nanoelectronics from Electrotechnical University
         &quot;LETI&quot;.
         <br />

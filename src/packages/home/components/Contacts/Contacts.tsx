@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './Contacts.module.css';
-import photo from '/public/images/me3.png';
+import photo from '/public/images/test.png';
 import { CONTACTS } from '@/entities';
 import Link from 'next/link';
 import { Icon } from '@/ui/atoms/Icons';
@@ -32,8 +32,8 @@ const Contacts = () => {
           className={styles.image}
           alt={'avsievich'}
           width={500}
-          height={700}
-          quality={70}
+          height={500}
+          quality={100}
         />
       </div>
       <ul className={styles.contacts}>

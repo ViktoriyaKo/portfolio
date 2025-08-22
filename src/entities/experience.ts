@@ -4,7 +4,7 @@ export const EDUCATION = [
     speciality: 'Electronics and Nanoelectronics',
     degree: `Master's degree`,
     date: '2015-2017',
-    mark: '4,6 out of 5',
+    mark: '4,7 out of 5',
   },
   {
     name: `Ural Federal University (UrFU) Institute of Physics and Technology`,
@@ -24,6 +24,18 @@ export const EDUCATION = [
 
 export const EXPERIENCE = [
   {
+    name: `LLC Meridian`,
+    speciality: 'Frontend Developer',
+    technologies: `React Native (Bare Workflow), Expo, React, TS, TypeScript, Zustand, Tailwind, Figma, Swagger`,
+    date: 'Apr 2025-Present',
+  },
+  {
+    name: `Divan.online`,
+    speciality: 'Frontend Developer',
+    technologies: `Next.js, React, TypeScript, Zustand, SASS, Figma, Tensorflow, Swiper, Swagger, Docker, Nest`,
+    date: 'Nov 2024-March 2025',
+  },
+  {
     name: `Batumi Estate`,
     speciality: 'Frontend Developer',
     technologies: `Next.js, React, TypeScript, Redux ToolKit, Node.js, Directus, GraphQL, HTML, CSS, Tailwind, Postgresql, Keen-slider, Figma`,
@@ -39,6 +51,6 @@ export const EXPERIENCE = [
     name: `EPAM Systems`,
     speciality: 'Frontend Developer',
     technologies: `React, TypeScript, JavaScript, Redux, HTML, CSS, SASS, Jest, Bootstrap, Node.js`,
-    date: 'Dec 2020 — Nov 2022',
+    date: 'Dec 2021 — Nov 2022',
   },
 ];

@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className={styles.title}>Hi, I&apos;m Viktoriia Avsievich!</h1>
         <div className={styles.wrapperDescription}>
           <h2 className={styles.description}>
-            Frontend Developer with 3+ years of commercial experience,
+            Frontend Developer with over 4 years of commercial experience,
             specializing in building responsive and user-friendly web
             applications using modern technologies
           </h2>

@@ -4,18 +4,17 @@ import travel from '/public/images/travel.jpg';
 
 const skillsBody = `<div>
 <p><span>Programming languages</span>   JavaScript, TypeScript</p>
-<p><span>Frameworks</span>React, Next.js, React Native, Node.js, Strapi, Directus, Express</p>
-<p><span>Markup</span>HTML, CSS, SCSS/SASS, Pixel Perfect, BEM</p>
-<p><span>State Management Libraries</span>MobX, Redux Toolkit, Redux</p>
+<p><span>Frameworks</span>React, Next.js, React Native, Angular, Node.js, Strapi, Directus, Express</p>
+<p><span>Markup</span>HTML, CSS, SCSS/SASS, Pixel Perfect, BEM, Styled-components</p>
+<p><span>State Management Libraries</span>MobX, Redux Toolkit, Redux, Redux-Saga, Zustand</p>
 <p><span>Libraries</span>Deck.gl, React Flow, Framer motion, Keen-slider, Apollo Client</p>
 <p><span>UI Libraries</span>Tailwind, Material UI, Bootstrap</p>
-<p><span>Tools</span>Figma, Postman, Webpack, Git, Github, GitHub Actions, GitLab, Jira, Miro,</p>
-Trello, Redmine, Swagger, Cloudinary</p>
-<p><span>Hosting</span>Vercel, Render.com, Netlify, Railway,</p>
+<p><span>Tools</span>Figma, Postman, Webpack, Git, Github, GitHub Actions, GitLab, Jira, Miro, Trello, Redmine, Swagger, Cloudinary</p>
+<p><span>Hosting</span>Vercel, Render.com, Netlify, Railway, VPS with Ubuntu</p>
 <p><span>Databases</span>PostgreSQL, SQLite, MongoDB, MySQL</p>
 <p><span>Network</span>GraphQL, REST API</p>
 <p><span>Internalization</span>Strapi i18n, Next.js i18n, React i18n</p>
-<p><span>Testing</span>JEST
+<p><span>Testing</span>JEST, React Native Testing Library
 </div>`;
 
 const travelBody = `<div>
